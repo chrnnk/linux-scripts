@@ -1,4 +1,4 @@
-# bash -c "$(wget -qLO - https://github.com/chrnnk/linux/raw/main/scripts/docker-install.sh)"
+# bash -c "$(wget -qLO - https://github.com/chrnnk/linux-scripts/raw/main/docker-install.sh)"
 
 apt-get update
 apt-get install ca-certificates curl
