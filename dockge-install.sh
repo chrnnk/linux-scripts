@@ -1,2 +1,2 @@
-# bash -c "$(wget -qLO - hhttps://github.com/chrnnk/linux-scripts/raw/main/dockge-install.sh)"
+# bash -c "$(wget -qLO - https://github.com/chrnnk/linux-scripts/raw/main/dockge-install.sh)"
 mkdir -p /opt/stacks /opt/dockge && cd /opt/dockge && curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml && docker compose up -d
